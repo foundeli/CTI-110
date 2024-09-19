@@ -21,3 +21,15 @@ print()
 
 # Display output to the user
 print(base_value, "raise to the power of", exponent, "is", value, "!!")
+
+print()
+print()
+print("---------Addition and Subtracion---------")
+print()
+print()
+start_num = int(input("Enter a starting interger: "))
+add_num = int(input("Enter an interger to add: "))
+sub_num = int(input("Enter an integer to subtract: "))
+print()
+print()
+print(start_num, "+", add_num, "-", sub_num, "is equal to", start_num + add_num - sub_num)
