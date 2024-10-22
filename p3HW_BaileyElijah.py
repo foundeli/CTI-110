@@ -52,3 +52,38 @@ money = money - (num_nickles * 5)
 # Create a variable for pennies
 num_pennies = money
 print(f"Pennies: {num_pennies}")
+
+# Print dollar amount gramatically correct
+if num_dollars > 0:
+    if num_dollars == 1:
+        print(f"{num_dollars} dollar")
+    else: #variable is greater than one
+        print(f"{num_dollars} dollars")
+
+#Print quarter amount gramatically correct
+if num_quarters > 0:
+    if num_dollars == 1:
+        print(f"{num_quarters} quarters")
+    else: # Variable is grater than one
+        print(f"{num_quarters} quarters")
+
+#Print dimes amount gramatically correct
+if num_dimes > 0:
+    if num_dimes == 1:
+        print(f"{num_dimes} dime")
+    else: # Variable is grater than one
+        print(f"{num_dimes} dime")
+
+#Print nickles amount gramatically correct
+if num_nickles > 0:
+    if num_nickles == 1:
+        print(f"{num_nickles} nickle")
+    else: # Variable is grater than one
+        print(f"{num_nickles} nickle")
+
+#Print penny amount gramatically correct
+if num_pennies > 0:
+    if num_pennies == 1:
+        print(f"{num_pennies} penny")
+    else: # Variable is grater than one
+        print(f"{num_pennies} penny")
