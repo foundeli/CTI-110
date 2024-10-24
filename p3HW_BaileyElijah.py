@@ -16,6 +16,13 @@ print(7%4)
 # Get money value from user as a float
 money = float(input("Enter the amount of money as a float: $"))
 
+if money == 0:
+    print("No change")
+
+# Check for debt
+if money < 0:
+    print("OUCH!! You're in debt")
+    
 # Convert money to a whole number
 money = round(money * 100)
 
@@ -51,7 +58,14 @@ money = money - (num_nickles * 5)
 
 # Create a variable for pennies
 num_pennies = money
-print(f"Pennies: {num_pennies}")
+# print(f"Pennies: {num_pennies}")
+
+else:
+    num_dollars = 0
+    num_quarters = 0
+    num_dimes = 0
+    num_nickels = 0
+    num_pennies = 0
 
 # Print dollar amount gramatically correct
 if num_dollars > 0:
